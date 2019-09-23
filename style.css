@@ -4,3 +4,24 @@ margin: 0;
 padding: 0;
 }
 
+a {
+text-decoration: none;
+}
+
+h1{
+}
+
+p{
+padding: 1% 5% 1% 5%;
+}
+
+
+.aboutMe{
+width: 75%;
+height: 40%;
+border: solid;
+}
+
+.aboutMe h1{
+text-align: center;
+}
