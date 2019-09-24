@@ -1,3 +1,8 @@
+
+body {
+background-color: rgb(111, 238, 158);
+}
+
 nav {
 list-style-type: none;
 margin: 0;
@@ -15,6 +20,10 @@ p{
 padding: 1% 5% 1% 5%;
 }
 
+
+.mainText{
+color: #FFF;
+}
 
 .aboutMe{
 width: 75%;
