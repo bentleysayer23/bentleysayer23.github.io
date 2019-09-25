@@ -13,19 +13,21 @@ a {
 text-decoration: none;
 }
 
-h1{
+h1, h3 {
+color: #fff;
 }
 
 p{
 font-family: 'Source Sans Pro', sans-serif;
 padding: 1% 5% 1% 5%;
+color: #fff;
 }
 
 .flexContainer{
 display: inline-flex;
 height: 89vh;
 margin: 3% 0%;
-background-color: #fff;
+background-color: #404040;
 }
 
 .mainImage {
@@ -48,7 +50,7 @@ color: #000;
 width: 45%;
 height: 75%;
 flex-grow: 1;
-background-color: #fff;
+background-color: #404040;
 }
 
 .mainText h1 {
@@ -56,9 +58,10 @@ font-family: 'Playfair Display', serif;
 text-align: left;
 font-size: 50px;
 margin-left: 5%;
-}
-
+} 
 .mainText h3{
+text-align: left;
+margin-left:5%;
 font-family: 'Source Sans Pro', sans-serif;
 font-style: bold;
 font-size: 22px;
@@ -70,3 +73,17 @@ text-align: center;
 margin-top: 20%;
 }
 
+.socialIcons{
+margin-top: 12%;
+margin-right: 5%;
+text-align: right;
+}
+
+.socialIcons a{
+display: inline-flex;
+}
+
+.socialIcons img{
+width: 50px;
+padding: 5%;
+}
